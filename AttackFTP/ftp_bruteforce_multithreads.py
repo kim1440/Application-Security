@@ -122,6 +122,8 @@ def parse_arguments():
     parser.add_argument('-u', '--user', help='단일 사용자명')
     parser.add_argument('-p', '--password', help='단일 비밀번호')
     parser.add_argument('-t', '--threads', type=int, default=10, help='최대 스레드 수')
+    # -d 인자 추가 (하지만 사용하지 않음)
+    parser.add_argument('-d', '--delay', type=float, help='지연 시간 (무시됨)')
     
     args = parser.parse_args()
     
