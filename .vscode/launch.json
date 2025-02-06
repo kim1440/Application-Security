@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "FTP Bruteforce",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "args": [
+                "-H", "192.168.100.20",
+                "-U", "short_users.txt",
+                "-P", "short_passwords.txt",
+                "-d", "0.5"
+            ],
+            "console": "integratedTerminal"
+        }
+    ]
