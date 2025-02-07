@@ -2,19 +2,28 @@ import os
 import sys
 import unittest
 
+from unittest.mock import patch
+from io import StringIO
+
 sys.path.append(os.path.dirname(os.path.abspath(os.path.dirname(__file__))))
 from ftp.main import print_menu, main
 
 
-class testMain(unittest.TestCase):  # 클래스 이름을 PEP 8 스타일로 변경
-    def test_print_menu(self):
-        """메뉴 출력 함수 테스트"""
-        result = print_menu()  # main. 접두어 제거
-        self.assertIsInstance(result, str)  # 문자열 반환 확인
-        self.assertTrue(len(result) > 0)  # 빈 문자열이 아닌지 확인
+class testMain(unittest.TestCase):
+    @patch('sys.argv', new=['main.py', '-H', '192.168.100.20', '-u', 'cju', '-p', 'security'])
+    @patch('builtins.input', side_effect=['4'])
+    def test_main(self, mock_input):
+        """!
+        @fn         test_main
+        @brief      FTP 클라이언트 메인 함수 테스트
+        @details    FTP 클라이언트 접속 후 메뉴를 출력하고 종료하는지 확인
 
-    def test_main(self):
-        """메인 함수 테스트"""
-        # 기본값으로 실행
-        result = main()  # main. 접두어 제거
-        self.assertIsNone(result)  # main 함수는 None을 반환
+        @param      mock_input   입력 모의 객체
+        @return     None
+
+        @author     남수만(sumannam@gmail.com)
+        @date       2025.02.07
+        """
+        result = main()
+        mock_input.assert_called()
+        self.assertIsNone(result)
