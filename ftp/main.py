@@ -3,7 +3,7 @@ import argparse
 import os
 from typing import List
 
-from FTPClient import FTPClient
+from insecure.FTPClient import FTPClient
 
 def print_menu():
     """메인 메뉴 출력"""
@@ -101,12 +101,32 @@ def parse_arguments() -> tuple:
     parser.add_argument('-H', '--host', help='FTP server host')
     parser.add_argument('-u', '--user', help='FTP username')
     parser.add_argument('-p', '--password', help='FTP password')
+    parser.add_argument('-U', '--userlist', help='사용자명 리스트 파일')
+    parser.add_argument('-P', '--passlist', help='비밀번호 리스트 파일')
+    parser.add_argument('-d', '--delay', help='지연 시간 (무시됨)', type=float)
     args = parser.parse_args()
     
-    # 기본값 설정
-    host = args.host if args.host else "192.168.100.20"
-    user = args.user if args.user else "cju"
-    password = args.password if args.password else "security"
+    # 입력 인자가 하나라도 있는지 확인
+    has_args = any([args.host, args.user, args.password, args.userlist, args.passlist])
+    
+    if has_args:
+        # 인자가 있는 경우 해당 값 사용
+        host = args.host if args.host else "192.168.100.20"
+        if args.userlist or args.passlist:  # 워드리스트 모드
+            base_path = os.path.dirname(os.path.abspath(__file__))
+            userlist_file = os.path.join(base_path, args.userlist) if args.userlist else None
+            passlist_file = os.path.join(base_path, args.passlist) if args.passlist else None
+            user = userlist_file if args.userlist else (args.user if args.user else "cju")
+            password = passlist_file if args.passlist else (args.password if args.password else "security")
+        else:  # 일반 모드
+            user = args.user if args.user else "cju"
+            password = args.password if args.password else "security"
+    else:
+        # 인자가 없는 경우 사용자 입력 받기
+        print("\n=== FTP 연결 정보 입력 ===")
+        host = input("FTP 서버 주소: ").strip() or "192.168.100.20"
+        user = input("사용자 이름: ").strip() or "cju"
+        password = input("비밀번호: ").strip() or "security"
     
     return host, user, password
 

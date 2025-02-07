@@ -1,4 +1,4 @@
-from ftplib import FTP
+from ftplib import FTP, error_perm
 import os
 from typing import List
 
@@ -17,6 +17,15 @@ class FTPClient:
             print(f"Connected to {self.host}")
             print(f"Welcome message: {self.ftp.getwelcome()}")
             return True
+        except error_perm as e:
+            # FTP 서버의 응답 메시지를 그대로 출력
+            if "530 Login incorrect" in str(e):
+                print(f"Connection failed: 530 Login incorrect")
+            elif "530 User not found" in str(e):
+                print(f"Connection failed: 530 User not found")
+            else:
+                print(f"Connection failed: {str(e)}")
+            return False
         except Exception as e:
             print(f"Connection failed: {str(e)}")
             return False
