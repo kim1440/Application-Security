@@ -14,3 +14,4 @@ def test_build(file_name):
 
 if __name__ == "__main__":
     test_build('test\\unitest_ftp.py')
+    test_build('test\\unitest_db.py')
