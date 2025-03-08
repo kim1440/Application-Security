@@ -1,5 +1,7 @@
 [
   "table-editor-obsidian",
   "github-sync",
-  "editing-toolbar"
+  "editing-toolbar",
+  "mermaid-tools",
+  "obsidian-importer"
 ]
