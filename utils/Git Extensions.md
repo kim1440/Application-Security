@@ -1,3 +1,21 @@
+# 개요
+- Git Extension은 Git 버전 관리 시스템을 좀 더 쉽게 사용할 수 있도록 도와주는 시각적 인터페이스(GUI) 도구
+- 주요 특징
+	- Windows용 오픈 소스 Git 클라이언트로, Visual Studio와 통합 가능
+	- 직관적인 인터페이스를 통해 복잡한 Git 명령어를 시각적으로 수행
+- **주요 기능**:
+    - 저장소 생성 및 복제
+    - 커밋, 브랜치, 병합 작업의 시각화
+    - 충돌 해결 도구
+    - 변경 내역 비교 및 탐색
+    - 원격 저장소 관리
+- **사용 이점**:
+    - 명령줄 인터페이스(CLI)보다 직관적인 사용 방법
+    - 복잡한 Git 워크플로우를 시각적으로 이해하기 쉬움
+    - 초보자와 고급 사용자 모두를 위한 기능 제공
+- **플랫폼 지원**:
+    - 주로 Windows에 초점을 맞추고 있으나, 다른 운영체제에서도 사용 가능
+
 # 설치
 1. 아래 URL에 접속한다.
 	**![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfAdvei3OEANz0hpVgE6chEOOdnS86JQZwXbq79IMScQkT1EMDXCcGXuBL03E3f5VJYK2THeQ5ipgFhqsS5DB_8B0aNSTv6jNJbJE-tS6B6gowCTyFjTW8swcNWLOZWt-OIvDGWcLcDGHO6M-zEUvBHgg?key=w0AtgsenGpnI0F9Mbxx2ww)**
