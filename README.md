@@ -33,13 +33,13 @@
 
 # 개발 환경
 
-| 구분      | 도구명                                                                           | 활용                                   |
-| ------- | ----------------------------------------------------------------------------- | ------------------------------------ |
-| 요구사항 분석 | [Github](성과창출도구/Github.md)                                                    | Github Issue를 통해 요구사항 작성             |
-| 설계      | [마크다운](성과창출도구/마크다운.md)<br>[Figma](성과창출도구/Figma.md)                            | 설계 문서(개발, 테스트 방법)<br>순서도 작성          |
-| 개발      | [IntelliJ](IntelliJ.md)<br>[Git](성과창출도구/Git.md)<br>[Github](성과창출도구/Github.md) | 소스 개발 도구<br>소스 버전 관리 도구<br>소스 버전 저장소 |
-| 개발 언어   | [Python](tools/Python.md)<br>[Java](tools/Java.md)                            | 프로그래밍 언어                             |
-| 테스트     | [Unitest](tools/Unitest.md)<br>[Junit](성과창출도구/Junit.md)                       | Java 테스트 자동화 도구<br>Python 테스트 자동화 도구 |
+| 구분      | 도구명                                                                                | 활용                                   |
+| ------- | ---------------------------------------------------------------------------------- | ------------------------------------ |
+| 요구사항 분석 | [Github](utils/Github.md)                                                          | Github Issue를 통해 요구사항 작성             |
+| 설계      | [Markdown](utils/Markdown.md)<br>[Figma](utils/Figma.md)                           | 설계 문서(개발, 테스트 방법)<br>순서도 작성          |
+| 개발      | [IntelliJ](utils/IntelliJ.md)<br>[Git](utils/Git.md)<br>[Github](성과창출도구/Github.md) | 소스 개발 도구<br>소스 버전 관리 도구<br>소스 버전 저장소 |
+| 개발 언어   | [Python](utils/Python.md)<br>[Java](utils/Java.md)                                 | 프로그래밍 언어                             |
+| 테스트     | [Unitest](utils/Unitest.md)<br>[Junit](utils/Junit.md)                             | Java 테스트 자동화 도구<br>Python 테스트 자동화 도구 |
 
 
 # 평가
@@ -50,6 +50,6 @@
 | 출석    | 20점 | 출석 점수는 기본 점수에서 결석 시 2점<br>지각은 2회부터 1점씩 감점<br>총 수업 시간의 1/4 이상 결석 시 F학점으로 처리 |
 | 실습    | 20점 | 매주 수행하는 팀프로젝트 실습 평가                                                        |
 | 수업 참여 | 10점 | 다른 팀 발표 시 질문 수                                                             |
-| 기말    | 30점 | 기말고사 [프로젝트](notice/프로젝트.md)                                                |
+| 기말    | 30점 | 기말고사 [Mid-term Project](notice/Mid-term%20Project.md)                                                |
 | 중간    | 20점 | Essay(기말고사 때 실시)                                                           |
 

@@ -1,5 +1,9 @@
 [
   "table-editor-obsidian",
   "github-sync",
-  "editing-toolbar"
+  "editing-toolbar",
+  "mermaid-tools",
+  "obsidian-importer",
+  "obsidian-image-toolkit",
+  "obsidian-emoji-toolbar"
 ]
