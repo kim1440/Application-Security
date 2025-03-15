@@ -19,7 +19,9 @@ ovftool.exe "{.vmx file path}" "{New file path}\{file name.ovf}
 
 
 3. 가상 머신 이름 및 저장할 경로 선택 후 'Import' 선택
+		
 	![](attachments/Pasted%20image%2020250316064531.png)
+		
 	※ 'D:\VMware'는 설치 폴더 경로의 예
 	**※ Import를 클릭한 후 “Failed to open OVF descriptor”를 나올 경우,**
 	- 아래 '해결방법1'로 처리 이후에도 오류 시 저에게 연락주세요.
@@ -52,19 +54,18 @@ VMware 환경에서의 네트워크는 공인망, 사설망, 폐쇄망으로 구
 # VMware 네트워크 설정 방법
 
 1. Edit → Virtual Network Editor로 이동한다.
-    
-    ![[attachments/image 1.png]]
+
+	![](attachments/Pasted%20image%2020250316074311.png)
 	    
 		
 2. Changed Settings를 클릭한다.
     
-	![[attachments/image 2.png]]
+	![](attachments/Pasted%20image%2020250316074337.png)
 		
 		
 3. VMware에서 네트워크 설정을 선택할 수 있다.
     
-    ![[attachments/image 3.png]]
-	 
+    ![](attachments/Pasted%20image%2020250316074352.png)	 
 	
 ## 공인망(Bridged)
 
@@ -81,7 +82,7 @@ VMware 환경에서의 네트워크는 공인망, 사설망, 폐쇄망으로 구
 
 1. NAT인 경우, IP 주소 3번째 자리 수를 맞추어야 한다. Subnet IP의 3번째 자리 수를 입력 후 Apply를 클릭하면 변경된다.
     
-	![[attachments/image 6.png]]
+	![](attachments/Pasted%20image%2020250316074405.png)
     ※ Host-Only일 경우 위 그림 기준 3번째 자리는 `200`이다.
 	 
 	
@@ -99,7 +100,7 @@ VMware 환경에서의 네트워크는 공인망, 사설망, 폐쇄망으로 구
 
 1. 폐쇄망 IP 주소 설정은 NAT에서의 IP 주소 설정과 동일하다.
     
-    ![[attachments/image 8.png]]
+    ![](attachments/Pasted%20image%2020250316074419.png)
     
 
 # 가상머신에서 IP 설정 방법
@@ -107,22 +108,22 @@ VMware 환경에서의 네트워크는 공인망, 사설망, 폐쇄망으로 구
 ## 가상머신에서 네트워크 설정 방법
 
 1. VMware 화면에서 오른쪽 하단의 네트워크 아이콘 더블 클릭
-	![[attachments/Untitled.png]]
-	  
+	
+	![](attachments/Pasted%20image%2020250316074432.png)	  
 	
 2. 설정 확인	    
-	![[attachments/Untitled 1.png]]
+	![](attachments/Pasted%20image%2020250316074449.png)
  
 
 ## 가상머신에서 IP 주소 변경 방법
 
 1. `Activities` → `network` → `Network`를 실행한다.
 
-	![[attachments/image 9.png]]
+	![](attachments/Pasted%20image%2020250316074458.png)
 	
 	
 2. 설정 아이콘을 클릭한다.
-	![[attachments/image 10.png]]
+	![](attachments/Pasted%20image%2020250316074507.png)
     
       
     
@@ -140,13 +141,14 @@ Netmast : 255.255.255.0
 Gateway : 192.168.100.2
 DNS : 168.126.63.1
 ```
-![[attachments/image 11.png]]
+![](attachments/Pasted%20image%2020250316074516.png)
           
     
 4. 입력한 IP 주소를 적용한다.
-	![[attachments/image 12.png]]
+		
+	![](attachments/Pasted%20image%2020250316074527.png)
     
-    ![[attachments/image 13.png]]
+    ![](attachments/Pasted%20image%2020250316074538.png)
     
 	
 # 네트워크 진단 방법(4가지)
@@ -154,11 +156,11 @@ DNS : 168.126.63.1
 # **1. VMware Adapter 설정 확인**
 
 1. VMware 화면에서 오른쪽 하단의 네트워크 아이콘 더블 클릭
-	![](attachments/Pasted%20image%2020250316065935.png)
+	![](attachments/Pasted%20image%2020250316074556.png)
 		  
 	
 2. 설정 확인
-	![](attachments/Pasted%20image%2020250316065954.png)
+	![](attachments/Pasted%20image%2020250316074603.png)
     ※NAT와 Host-only의 IP 주소의 서브넷 번호 확인 방법은 아래 '3. IP 주소 확인'
 	 
 # **2. 외부 인터넷과의 연결 확인**
