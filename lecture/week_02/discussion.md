@@ -26,4 +26,5 @@
 https://www.figma.com/slides/rdvoqt9qruyMsREF13u5Rq/Untitled?node-id=1-98&t=bWYVeF2vKoRBxRuT-1
 
 # 질문&답변
-[Question&Answer](../../notice/Question&Answer.md)
+
+- [Question&Answer](../../notice/Question&Answer.md)
