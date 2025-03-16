@@ -1,5 +1,29 @@
 
 # 개요
+
+- VMware Workstation Pro는 데스크톱 컴퓨터에서 가상 머신을 생성하고 실행할 수 있는 고급 가상화 소프트웨어이다.
+- 주요 특징
+	- **다양한 운영체제 지원**
+		- Windows, Linux, macOS, FreeBSD 등 다양한 게스트 운영체제 지원
+		- 32비트 및 64비트 운영체제 모두 지원
+	- **고급 가상화 기능**
+		- 3D 그래픽 가속화
+		- 다중 CPU 및 다중 코어 지원
+		- 최대 64GB RAM 할당 가능한 가상머신 생성
+		- 가상 네트워크 및 네트워크 설정 커스터마이징
+	- **스냅샷 기능**
+		- 가상머신의 현재 상태를 저장하고 나중에 복원 가능
+		- 소프트웨어 테스트나 시스템 구성 변경 시 안전망 제공
+	- **클론 기능**
+		- 기존 가상머신의 복사본 생성 (전체 클론 또는 연결 클론)
+		- 다양한 설정으로 동일한 VM을 여러 개 생성 가능
+	- **팀 협업 기능**
+		- 가상머신 공유 및 원격 접속
+		- 암호화된 가상머신 생성 및 관리
+
+
+# OVF Import
+## 개요
 OVF(Open Virtualization Format)는 **가상머신의 이미지를 또 다른 가상머신으로 변화하는 툴**이다. 
 
 보통은 VualBox로 포팅할 때 사용한다. 
@@ -10,8 +34,7 @@ OVF(Open Virtualization Format)는 **가상머신의 이미지를 또 다른 가
 ovftool.exe "{.vmx file path}" "{New file path}\{file name.ovf} 
 입력 상세 내용은 아래 URL 참고: [OVFTool](https://www.vmware.com/support/developer/ovf/)
 
-
-# OVF Import 방법
+## OVF Import 방법
 1. File → Open 선택한다.
 	
 2. 파일 형식 OVF 선택 후 해당 파일 선택한다.

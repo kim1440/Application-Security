@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "utils/VMware Workstation Pro.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "VMware Workstation Pro"
             }
           },
           {
@@ -73,8 +73,7 @@
               "title": "Figma"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -234,6 +233,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "oz-clear-unused-images:Clear Unused Images": false,
       "switcher:빠른 전환기 열기": false,
       "graph:그래프 뷰 열기": false,
       "canvas:새 캔버스 만들기": false,
@@ -246,8 +246,10 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "fdca74a3e24ebc2e",
+  "active": "9b45b4cb1b23812e",
   "lastOpenFiles": [
+    "README.md",
+    "utils/Figma.md",
     "utils/attachments/image 1.png",
     "utils/attachments/image 9.png",
     "utils/attachments/image 8.png",
@@ -258,7 +260,6 @@
     "utils/attachments/image 12.png",
     "utils/attachments/image 11.png",
     "utils/attachments/image 10.png",
-    "utils/attachments/Untitled.png",
     "utils/VMware Workstation Pro.md",
     "lecture/week_04/README.md",
     "lecture/week_04",
@@ -266,7 +267,6 @@
     "lecture/manual/FTP 서버 확인 방법.md",
     "lecture/manual/attachments",
     "lecture/manual",
-    "utils/Figma.md",
     "utils/Git.md",
     "utils/Git Extensions.md",
     "utils/Obsidian.md",
