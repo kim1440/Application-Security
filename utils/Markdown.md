@@ -1,4 +1,5 @@
 # 개요
+
 - 일반 텍스트 기반의 경량 마크업 언어로, 2004년 존 그루버(John Gruber)와 애런 스워츠(Aaron Swartz)가 개발
 - 주요 특징
 	- **간결성**: 일반 텍스트를 사용하면서도 서식이 있는 문서로 변환
@@ -16,6 +17,7 @@
 	- 구분선: `---`
 
 # Markdown 지원 소프트웨어
+
 - [Github](Github.md)
 - [Obsidian](Obsidian.md)
 - Notion
