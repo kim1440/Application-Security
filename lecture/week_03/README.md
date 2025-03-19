@@ -28,7 +28,14 @@
 
 # 실습 제출
 
+- 개요
+	- 목표
+		- 우분투 서버를 설치한 후, FTP 프로그램을 연동한다.
+	- 실습 정보
+		- 날짜 : 2025-03-19
+		- 실습 번호 : 1
 - 정답 화면
 		![](attachments/Pasted%20image%2020250319202351.png)
 - 제출
 	- [Submission](../../notice/Submission.md)
+
