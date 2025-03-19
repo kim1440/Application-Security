@@ -1,5 +1,6 @@
 # 계정 생성
 ## 학생 인증
+
 https://velog.io/@pjm529/GitHub-학생-인증하기
 
 # Repository 생성
@@ -18,6 +19,7 @@ https://velog.io/@pjm529/GitHub-학생-인증하기
 	![](attachments/Pasted%20image%2020250309072047.png)
 		
 # Remote와 Local Repository 연결
+
 1. 생성된 Repository로 이동한 후, URL 코드를 획득한다.
 		
 	![](attachments/Pasted%20image%2020250309072310.png)
@@ -36,6 +38,7 @@ https://velog.io/@pjm529/GitHub-학생-인증하기
 
 
 # 기본 Commit과 Push 실습
+
 1. README 파일을 연다.
 2. 학번과 이름을 입력한다.
 3. Git Extension에서 Commit하고 Push한다.
