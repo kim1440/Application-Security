@@ -131,7 +131,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 325.5
+    "width": 204.5
   },
   "right": {
     "id": "94f81c78a9f1d26d",
@@ -249,6 +249,11 @@
   },
   "active": "930dfb6050a338f5",
   "lastOpenFiles": [
+    "lecture/week_04/attachments/Pasted image 20250320222906.png",
+    "ftp/attacks/success.txt",
+    "success.txt",
+    "lecture/week_04/attachments/Pasted image 20250320215558.png",
+    "lecture/week_04/attachments",
     "lecture/manual/Brute-force Attack.md",
     "lecture/week_04/README.md",
     "lecture/week_03/README.md",
@@ -286,14 +291,9 @@
     "utils/attachments/Pasted image 20250319162041.png",
     "attachments",
     "lecture/manual/VSCode에서 서버 연결.md",
-    "lecture/manual/FTP 서버 확인 방법.md",
     "utils/attachments/image 1.png",
-    "utils/attachments/image 9.png",
     "lecture/week_04",
     "lecture/manual/attachments",
-    "lecture/manual",
-    "Notion/attachments",
-    "Notion",
-    "utils/무제"
+    "lecture/manual"
   ]
 }
