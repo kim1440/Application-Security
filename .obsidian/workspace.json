@@ -51,7 +51,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "lecture/week_03/README.md",
+                "file": "lecture/week_04/README.md",
                 "mode": "source",
                 "source": false
               },
@@ -249,7 +249,9 @@
   },
   "active": "930dfb6050a338f5",
   "lastOpenFiles": [
+    "lecture/manual/Brute-force Attack.md",
     "lecture/week_04/README.md",
+    "lecture/week_03/README.md",
     "notice/Team-member.md",
     "notice/Member.md",
     "notice/Submission.md",
@@ -259,7 +261,6 @@
     "성과창출도구/Github.md",
     "성과창출도구",
     "utils/Visual Studio Code.md",
-    "lecture/week_03/README.md",
     "lecture/무제",
     "lecture/week_03/attachments/Pasted image 20250319202351.png",
     "lecture/week_03/attachments",
@@ -286,7 +287,6 @@
     "attachments",
     "lecture/manual/VSCode에서 서버 연결.md",
     "lecture/manual/FTP 서버 확인 방법.md",
-    "utils/VMware Workstation Pro.md",
     "utils/attachments/image 1.png",
     "utils/attachments/image 9.png",
     "lecture/week_04",
