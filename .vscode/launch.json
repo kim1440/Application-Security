@@ -9,8 +9,8 @@
             "program": "${file}",
             "args": [
                 "-H", "192.168.100.20",
-                "-U", "short_users.txt",
-                "-P", "short_passwords.txt"
+                "-U", "./attacks/short_users.txt",
+                "-P", "./attacks/short_passwords.txt"
             ],
             "console": "integratedTerminal"
         }
