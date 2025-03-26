@@ -13,64 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "lecture/week_04/README.md",
+                "file": "lecture/week_04/week_04.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
-            }
-          },
-          {
-            "id": "e3e7c203e489725a",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "manual/attachments/Pasted image 20250308225718.png"
-              },
-              "icon": "lucide-image",
-              "title": "Pasted image 20250308225718"
-            }
-          },
-          {
-            "id": "8534dc6198b3180a",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "manual/attachments/Pasted image 20250308225918.png"
-              },
-              "icon": "lucide-image",
-              "title": "Pasted image 20250308225918"
-            }
-          },
-          {
-            "id": "930dfb6050a338f5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "lecture/week_04/README.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "README"
-            }
-          },
-          {
-            "id": "d5f74e7d903e8d8f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "utils/Figma.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Figma"
+              "title": "week_04"
             }
           }
         ]
@@ -247,25 +195,29 @@
   },
   "active": "9b45b4cb1b23812e",
   "lastOpenFiles": [
+    "lecture/week_02/week_02.md",
+    "lecture/week_02/README.md",
+    "lecture/week_03/week_03.md",
+    "lecture/week_04/week_04.md",
+    "lecture/manual/소프트웨어 개발 생명주기와 주요 도구.md",
+    "lecture/manual/VSCode에서 서버 연결.md",
+    "README.md",
     "ftp/__pycache__/secure_main.cpython-311.pyc",
     "test/ftp/__pycache__/testSecureMain.cpython-311.pyc",
     "test/ftp/testSecureMain.py",
     "ftp/secure_main.py",
     "utils/VMware Workstation Pro.md",
-    "lecture/week_04/README.md",
     "lecture/week_04/attachments/Pasted image 20250320222906.png",
     "ftp/attacks/success.txt",
     "success.txt",
     "lecture/week_04/attachments/Pasted image 20250320215558.png",
     "lecture/week_04/attachments",
     "lecture/manual/Brute-force Attack.md",
-    "lecture/week_03/README.md",
     "notice/Team-member.md",
     "notice/Member.md",
     "notice/Submission.md",
     "utils/Obsidian.md",
     "attachments/Pasted image 20250308171653.png.md",
-    "README.md",
     "성과창출도구/Github.md",
     "성과창출도구",
     "utils/Visual Studio Code.md",
@@ -282,16 +234,12 @@
     "utils/Junit.md",
     "utils/Kdiff3.md",
     "utils/Figma.md",
-    "utils/Git.md",
-    "utils/SVN.md",
-    "디버깅.md",
     "utils/attachments/Pasted image 20250319200936.png",
     "utils/attachments/Pasted image 20250319200747.png",
     "utils/attachments/Pasted image 20250319200604.png",
     "utils/attachments/Pasted image 20250319162250.png",
     "utils/attachments/Pasted image 20250319162224.png",
     "utils/attachments/Pasted image 20250319162152.png",
-    "utils/attachments/Pasted image 20250319162041.png",
-    "attachments"
+    "utils/attachments/Pasted image 20250319162041.png"
   ]
 }

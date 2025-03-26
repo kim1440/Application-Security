@@ -1,4 +1,16 @@
 
+# 개요
+
+- [소프트웨어 개발 생명주기와 주요 도구](../manual/소프트웨어%20개발%20생명주기와%20주요%20도구.md)
+
+## 활용 도구
+- 요구사항
+	- [Github](../../utils/Github.md) 이슈
+- 설계
+	- [Obsidian](../../utils/Obsidian.md) : 문서 작성 도구
+	- [Figma](../../utils/Figma.md) : 그림 작성 도구
+
+
 # 1. 보안 요구사항
 
 - [Brute-force Attack](../manual/Brute-force%20Attack.md) 발생 위험 높음
