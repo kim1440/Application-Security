@@ -12,7 +12,7 @@
 
 ## 실습  방향
 
-[https://www.figma.com/board/xPSsifwnpgk1Ty37azcGI5/Untitled?node-id=1-299&t=NH4BS0HL4vIFgwPu-1](https://www.figma.com/board/xPSsifwnpgk1Ty37azcGI5/Untitled?node-id=1-299&t=NH4BS0HL4vIFgwPu-1)
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://embed.figma.com/board/xPSsifwnpgk1Ty37azcGI5/%EC%95%A0%ED%94%8C%EB%A6%AC%EC%BC%80%EC%9D%B4%EC%85%98-%EB%B3%B4%EC%95%88?node-id=0-1&embed-host=share" allowfullscreen></iframe>
 
 ## 한 주차 수업
 - 목표 설정 --> 토론 및 실습 --> 발표(랜덤)

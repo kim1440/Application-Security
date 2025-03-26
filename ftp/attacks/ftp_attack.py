@@ -8,9 +8,14 @@ import threading
 from queue import Queue
 from ftplib import FTP
 
-sys.path.append(os.path.join(os.path.dirname(__file__), "..", "InsecureFTP"))
-sys.path.append(os.path.join(os.path.dirname(__file__), "AttackFTP"))
-from FTPClient import FTPClient
+# 현재 디렉토리의 절대 경로 구하기
+current_dir = os.path.dirname(os.path.abspath(__file__))
+
+sys.path.append(os.path.dirname(os.path.abspath(os.path.dirname(__file__))))
+sys.path.append(os.path.join(os.path.dirname(__file__), "..", "insecure"))
+sys.path.append(os.path.join(os.path.dirname(__file__), "attacks"))
+
+from insecure.FTPClient import FTPClient
 
 def load_wordlist(filename: str) -> List[str]:
     """워드리스트 파일 로드"""
