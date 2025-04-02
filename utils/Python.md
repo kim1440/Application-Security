@@ -19,3 +19,20 @@
 
 - 설치 방법은 아래 링크를 확인한다.
 	https://wikidocs.net/186656
+
+
+# 최신 버전 유지
+
+1. Microsoft Store를 실행한 후, Python를 검색한다.
+		![](attachments/Pasted%20image%2020250402212806.png)
+	
+2. 최신 버전을 선택한 후, 다운로드를 클릭한다.
+		![](attachments/Pasted%20image%2020250402212845.png)
+	
+3. [Visual Studio Code](Visual%20Studio%20Code.md)를 실행한 후, `Ctrl + Shift + p`를 누른다.
+		
+4. `Python 인터프린터 선택`을 클릭한다.
+		![](attachments/Pasted%20image%2020250402213024.png)
+	
+5. Python 최신 버전을 선택한다.
+		![](attachments/Pasted%20image%2020250402213210.png)
