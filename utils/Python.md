@@ -23,6 +23,8 @@
 
 # 최신 버전 유지
 
+## [Visual Studio Code](Visual%20Studio%20Code.md)
+
 1. Microsoft Store를 실행한 후, Python를 검색한다.
 		![](attachments/Pasted%20image%2020250402212806.png)
 	
@@ -36,3 +38,11 @@
 	
 5. Python 최신 버전을 선택한다.
 		![](attachments/Pasted%20image%2020250402213210.png)
+
+
+## 윈도우 터미널
+
+1. `시스템 환경변수 편집`에 가서 Python 최신 버전 경로를 추가한다.
+		![](attachments/Pasted%20image%2020250402222817.png)
+		
+2. [Visual Studio Code](Visual%20Studio%20Code.md)와 터미널을 다시 실행한다.
