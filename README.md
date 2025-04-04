@@ -53,3 +53,4 @@
 | 기말    | 30점 | 기말고사 [Mid-term Project](notice/Mid-term%20Project.md)                                                |
 | 중간    | 20점 | Essay(기말고사 때 실시)                                                           |
 
+.
