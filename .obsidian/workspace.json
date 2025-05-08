@@ -35,19 +35,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "fdca74a3e24ebc2e",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "alphabetical",
-                "autoReveal": false
-              },
-              "icon": "lucide-folder-closed",
-              "title": "파일 탐색기"
-            }
-          },
-          {
             "id": "d318aebc3729780c",
             "type": "leaf",
             "state": {
@@ -193,7 +180,7 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "9b45b4cb1b23812e",
+  "active": "d318aebc3729780c",
   "lastOpenFiles": [
     "ftp/attacks/__pycache__/ftp_command_client.cpython-313.pyc",
     "utils/attachments/Pasted image 20250402222817.png",
